@@ -1,0 +1,18 @@
+# AWS Configuration
+aws_region = "us-west-2"
+
+# Project Configuration
+project_name = "cloud-platform-exercise"
+environment  = "dev"
+
+# VPC Configuration
+vpc_cidr = "10.0.0.0/16"
+
+# Application Configuration
+app_port = 8000
+app_count = 2
+fargate_cpu = 256
+fargate_memory = 512
+
+# Monitoring Configuration
+alarm_email = "admin@example.com"
